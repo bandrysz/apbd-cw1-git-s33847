@@ -5,8 +5,12 @@ public class Main {
         int y=20;
         int dod=x+y;
         System.out.println("Dodawanie: "+x+" + "+y+" = "+ dod);
-        int dziel=x-y;
-        System.out.println("Dzielenie: "+x+" - "+y+" = "+dziel );
+        int odej=x-y;
+        System.out.println("Odejmowanie: "+x+" - "+y+" = "+odej );
+        float mnoz=x*y;
+        System.out.println("Odejmowanie: "+x+" * "+y+" = "+mnoz );
+
+
 
         }
     }
