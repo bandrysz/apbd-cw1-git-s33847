@@ -6,7 +6,7 @@ public class Main {
         int dod=x+y;
         System.out.println("Dodawanie: "+x+" + "+y+" = "+ dod);
         int dziel=x-y;
-        System.out.println("Dodawanie: "+x+" - "+y+" = "+dziel );
+        System.out.println("Dzielenie: "+x+" - "+y+" = "+dziel );
 
         }
     }
