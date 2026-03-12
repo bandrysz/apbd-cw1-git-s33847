@@ -3,7 +3,10 @@ public class Main {
 
         int x=10;
         int y=20;
-        int w=x+y;
-        System.out.println("Dodawanie: "+x+" + "+y+" = "+ w);
+        int dod=x+y;
+        System.out.println("Dodawanie: "+x+" + "+y+" = "+ dod);
+        int dziel=x-y;
+        System.out.println("Dodawanie: "+x+" - "+y+" = "+dziel );
+
         }
     }
