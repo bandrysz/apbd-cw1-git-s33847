@@ -31,4 +31,13 @@ public class Main {
         }
         return max;
     }
+    public int calculateMin(int [] tab){
+        int min=tab[0];
+        for (int i = 0; i < tab.length; i++){
+            if (tab[i]<min){
+                min=tab[i];
+            }
+        }
+        return min;
+    }
 }
