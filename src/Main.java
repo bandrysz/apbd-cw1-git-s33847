@@ -35,12 +35,12 @@ public class Main {
         if(tab.length==0){
             return 0;
         }
-        int min=tab[0];
+        int minimum=tab[0];
         for (int i = 0; i < tab.length; i++){
-            if (tab[i]<min){
-                min=tab[i];
+            if (tab[i]<minimum){
+                minimum=tab[i];
             }
         }
-        return min;
+        return minimum;
     }
 }
