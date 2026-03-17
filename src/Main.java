@@ -22,4 +22,13 @@ public class Main {
         }
         return sum/c;
     }
+    public int calculateMax(int [] tab){
+        int max=0;
+        for (int i = 0; i < tab.length; i++){
+            if (tab[i]>max){
+                max=tab[i];
+            }
+        }
+        return max;
+    }
 }
