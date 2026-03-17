@@ -35,7 +35,7 @@ public class Main {
         if(tab.length==0){
             return 0;
         }
-        int min=tab[0];
+        int min=10000000;
         for (int i = 0; i < tab.length; i++){
             if (tab[i]<min){
                 min=tab[i];
