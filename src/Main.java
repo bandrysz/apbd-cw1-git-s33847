@@ -12,4 +12,14 @@ public class Main {
         Mnozenie m = new Mnozenie(x,y);
         System.out.println("Wynik mnozenia: "+m.wynik);
     }
+
+    public double calculateAvarage(int [] tab){
+        int sum=0;
+        int c=0;
+        for (int i = 0; i < tab.length; i++){
+            sum=sum+tab[i];
+            c=c+1;
+        }
+        return sum/c;
+    }
 }
