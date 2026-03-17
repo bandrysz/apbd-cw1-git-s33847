@@ -5,5 +5,11 @@ public class Main {
         int y=3;
 
         System.out.println("Dzialania na dwoch liczbach "+x+" "+y);
+        Dodawanie d = new Dodawanie(x,y);
+        System.out.println("Wynik dodawania: "+d.wynik);
+        Odejmowanie o = new Odejmowanie(x,y);
+        System.out.println("Wynik odejmowania: "+o.wynik);
+        Mnozenie m = new Mnozenie(x,y);
+        System.out.println("Wynik mnozenia: "+m.wynik);
     }
 }
