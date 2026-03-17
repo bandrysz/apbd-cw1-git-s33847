@@ -1,1 +1,2 @@
 "# Projekt1" 
+Merge nie jest typu fast forward poniewaz main otrzymal nowy commit po utworzeniu galezi feature max. Przez to historia obu galezi sie roznila i git musial stworzyc dodatkowego commita mergujacego
