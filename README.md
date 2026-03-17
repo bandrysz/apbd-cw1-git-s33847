@@ -11,6 +11,6 @@ Merge nie jest typu fast forward poniewaz main otrzymal nowy commit po utworzeni
 
 •	3. W jaki sposób został rozwiązany konflikt w Twoim repozytorium?
 
-1. Git wykona fast forwrd gdy tylko jedna mergujaca galaz ma commity zostawiajac historie liniowa
-2. Merge laczy galezie zachowujac ich historie i tworzac commit skalujacy. Przez to historia jest rozgaleziona
+1. Git wykona fast forwrd gdy tylko jedna mergujaca galaz ma commity zostawiajac historie liniowa. Merge commit powstaje gdy obie galezie maja niezalezne commity
+2. Merge laczy galezie zachowujac ich historie i tworzac commit skalujacy. Przez to historia jest rozgaleziona. Rebase przenosi commity jednej galezi na konec drugiej przpeisujac historie. Dzieki temu historia jest liniowa
 3. Zostal rozwiazany poprzez reczne polaczenie obu wersji kodu na mozliwie najlepsza jego wersje
